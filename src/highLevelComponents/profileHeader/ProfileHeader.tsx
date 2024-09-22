@@ -19,8 +19,12 @@ export const ProfileHeader = () => {
       <div className="name-container">
         <h1 className='name'>Mathias GILBERT</h1>
       </div>
-      <h2 className="mathias-introduction">Software Engineering Student</h2>
-      <h2 className="mathias-introduction">!! Website being built !!</h2>
+      <h3 className="mathias-introduction">Software Engineering Student</h3>
+      <div className="job-advert-container">
+        <h2 className='job-advert'>Need some web dev work done ?</h2>
+        <button className="job-hire-me-button">Hire me !</button>
+      </div>
+      
     </div>
   )
 }
